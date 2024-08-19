@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BuyPoint
+  - Money
+  - Customer
+  - CuePointCollider
+  - Desk
+  - BedPoint
+  - Toilet
+  - RoomCleanObject
+  - Exit
+  - GateEnterRight
+  - GateEnterLeft
+  - RoomEnterRight
+  - RoomEnterLeft
+  - Receptionist
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - IgnoreCollide
+  - Collector
+  - CollectItems
+  - Zone
+  - MeshPath
+  - ItemsCarrier
+  - 
+  - NotVisibleForUpgrade
+  - MapClickable
+  - Builder
+  - Plane
+  - IgnoreNavmesh
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Screens
+    uniqueID: 1753683487
+    locked: 0
+  - name: Popups
+    uniqueID: 1940258173
+    locked: 0
