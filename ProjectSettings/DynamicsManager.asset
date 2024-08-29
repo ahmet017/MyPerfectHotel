@@ -2,8 +2,8 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!55 &1
 PhysicsManager:
-  serializedVersion: 13
   m_ObjectHideFlags: 0
+  serializedVersion: 14
   m_Gravity: {x: 0, y: -9.81, z: 0}
   m_DefaultMaterial: {fileID: 0}
   m_BounceThreshold: 2
@@ -18,42 +18,11 @@ PhysicsManager:
   m_ClothInterCollisionDistance: 0
   m_ClothInterCollisionStiffness: 0
   m_ContactsGeneration: 1
-  m_LayerCollisionMatrix:
-  - 4294927999
-  - 4294926463
-  - 4294926463
-  - 4294967295
-  - 4294926463
-  - 4294926463
-  - 4294927423
-  - 4294926344
-  - 4294926856
-  - 4294926601
-  - 4294926409
-  - 4294926344
-  - 4294914056
-  - 4294967295
-  - 4294930431
-  - 4294909960
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  - 4294967295
-  m_AutoSimulation: 1
+  m_LayerCollisionMatrix: 7f66ffff7f60ffff7f60ffffffffffff7f60ffff7f60ffff3f64ffff0860ffff0862ffff0961ffff4960ffff0860ffff0830ffffffffffffff6fffff0820fffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_SimulationMode: 0
   m_AutoSyncTransforms: 0
   m_ReuseCollisionCallbacks: 1
+  m_InvokeCollisionCallbacks: 1
   m_ClothInterCollisionSettingsToggle: 0
   m_ClothGravity: {x: 0, y: -9.81, z: 0}
   m_ContactPairsMode: 1
@@ -65,5 +34,7 @@ PhysicsManager:
   m_FrictionType: 0
   m_EnableEnhancedDeterminism: 0
   m_EnableUnifiedHeightmaps: 1
+  m_ImprovedPatchFriction: 0
   m_SolverType: 0
   m_DefaultMaxAngularSpeed: 7
+  m_FastMotionThreshold: 3.4028235e+38

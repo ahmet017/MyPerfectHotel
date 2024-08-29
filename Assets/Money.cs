@@ -43,6 +43,8 @@ public class Money : MonoBehaviour
             gotoMoneyCollecter = false;
             StartCoroutine(GotoMoneyCollecterCoroutine());
         }
+
+            
     }
 
     private IEnumerator GotoMoneyCollecterCoroutine()
@@ -68,6 +70,8 @@ public class Money : MonoBehaviour
                 break;
             }
         }
+
+
     }
 
     private IEnumerator GotoPlayerCoroutine()
@@ -94,6 +98,18 @@ public class Money : MonoBehaviour
                 // Destroy the object when it's close enough to the target.
                 Destroy(gameObject);
                 break;
+            }
+
+            else
+            {
+                // Calculate the direction to the target.
+                moveDirection = (targetPos - transform.position).normalized;
+
+                // Calculate the desired velocity based on the moveSpeed.
+                desiredVelocity = moveDirection * moveSpeed;
+
+                // Update the position smoothly based on deltaTime.
+                transform.position += desiredVelocity * Time.deltaTime;
             }
         }    
     }
